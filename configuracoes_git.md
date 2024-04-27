@@ -18,3 +18,7 @@
 ### atualizar repositorio da maquina 
     - Comando
         git pull
+
+### verificar status  dos arquivos
+    - Comando
+        git status

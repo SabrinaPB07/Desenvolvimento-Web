@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+#menu{
+    text-align: center;
+    background: linear-gradient(#79096c,#208ed8,#cadbed);
+}
+
+.item-menu{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: "Permanent Marker", cursive;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    transition: .5s;
+}
+
+.item-menu:hover{
+    font-size: 32px;
+}
+
+
+#produtos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    background: linear-gradient(#79096c,#208ed8,#cadbed);
+}
+
+.produto{
+    width: 200px;
+    padding: 10px;
+    max-height: 250;
+    border: 1px solid black;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background: #cadbed;
+}
+
+h4{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+button{
+    background: linear-gradient(#303466,#643d7a,#aa4b90,#ff63a1);
+    border: none;
+    border-radius: 5%;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+button:hover{
+    background: linear-gradient(#0819bd,#42d6ff);
+    transition: .5s ease-in-out;
+}

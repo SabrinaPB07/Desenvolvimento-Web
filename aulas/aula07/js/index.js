@@ -38,10 +38,22 @@ for (var produto of bancoDeDados){
     conteudoProduto.appendChild(descricaoProduto)
 
     var precoProduto = document.createElement('p')
-    precoProduto.textContent = produto.preco
+    precoProduto.textContent = `R$ ${produto.preco}`
     conteudoProduto.appendChild(precoProduto)
 
-    
+    var botoes = document.createElement('div')
+    botoes.className = "btn"
+    conteudoProduto.appendChild(botoes)
 
+    var botaoComprar = document.createElement('button')
+    botaoComprar.textContent = "Comprar"
+    botoes.appendChild(botaoComprar)
+
+    var botaoDetalhes = document.createElement('button')
+    botaoDetalhes.textContent = "Detalhes"
+    botoes.appendChild(botaoDetalhes)
+
+    
+    conteudoProduto.appendChild(botoes)
     conteudoPrincipal.appendChild(conteudoProduto)
 }

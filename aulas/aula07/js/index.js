@@ -44,4 +44,5 @@ for (var produto of bancoDeDados){
     
 
     conteudoPrincipal.appendChild(conteudoProduto)
+
 }

@@ -10,4 +10,3 @@ while(contador < tarefas.length){
 // while (true) {
 //     break
 // }
-
